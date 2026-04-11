@@ -1,0 +1,42 @@
+# --- Backend (Python) ---
+startup_idea_venv/
+__pycache__/
+*.pyc
+*.db
+
+# --- Frontend (React + Vite) ---
+Frontend/user_intrfc/node_modules/
+Frontend/user_intrfc/dist/
+
+# --- Environment Files ---
+.env
+
+# --- Editor ---
+.vscode/
+
+# Virtual Environment
+startup_idea_venv/
+
+# Database
+*.db
+
+# Environment
+.env
+
+# Node
+node_modules/
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
