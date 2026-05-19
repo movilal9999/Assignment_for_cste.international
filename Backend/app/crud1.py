@@ -16,4 +16,4 @@ def create_shop(db: Session, shop: Schemas1.ShopBase):
     db.refresh(db_shop)
     return db_shop
 
-# You can add more CRUD functions later (update price, delete, etc.)
+#  can be added more CRUD functions later (update price, delete, etc.)

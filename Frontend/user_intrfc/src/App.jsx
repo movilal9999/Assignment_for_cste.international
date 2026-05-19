@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [mapCenter, setMapCenter] = useState([28.6139, 77.2090]); // Default: Delhi (India Gate)
 
-  // Optional: Try to get location automatically (but don't force it)
+
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
@@ -113,7 +113,7 @@ function App() {
           onClick={getCurrentLocation}
           className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-2xl font-medium mb-4"
         >
-          📍 Use My Current Location (Allow if asked)
+          Use My Current Location (Allow if asked)
         </button>
 
         <p className="text-center text-sm text-gray-500">
@@ -155,7 +155,7 @@ function App() {
                   target="_blank" 
                   className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-2xl font-medium whitespace-nowrap"
                 >
-                  💬 Bargain on WhatsApp
+                 Bargain on WhatsApp
                 </a>
               </div>
             ))}

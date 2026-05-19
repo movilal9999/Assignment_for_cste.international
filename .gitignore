@@ -8,10 +8,10 @@ __pycache__/
 Frontend/user_intrfc/node_modules/
 Frontend/user_intrfc/dist/
 
-# --- Environment Files ---
+# Environment Files
 .env
 
-# --- Editor ---
+# Editor means vscode
 .vscode/
 
 # Virtual Environment
@@ -26,7 +26,7 @@ startup_idea_venv/
 # Node
 node_modules/
 
-# Build
+# Build // this is for temporary
 dist/
 build/
 

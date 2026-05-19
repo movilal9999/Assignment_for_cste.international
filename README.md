@@ -1,6 +1,6 @@
 # Assiign (Find Nearby Shops)
 
-**Assignment As Demo Submission for "CSTE.International"**
+**Assignment Submission for "CSTE.International"**
 
 ## Problem Statement + Solution
 What problem were I trying to solve?
@@ -66,7 +66,7 @@ User (Frontend - React)
 API Request (FastAPI Backend)
 Database / Shop Data
 Distance Calculation (Haversine)
-Filtered Results (Price + Distance + Multiples Shops Nearby)
+Filtered Results (Price + Distance from Multiples Shops Nearby)
 Response to Frontend
 
 
@@ -105,6 +105,7 @@ npm run dev
 
 
 ## Future Enhancements (Optional - Advanced Features)
+
 **Note**:
 Potential future enhancements using Machine Learning and AI:
 The current submission prioritizes simplicity, reliability, and timely delivery using SQLite and basic full-stack or small Agent
@@ -116,4 +117,6 @@ The current submission prioritizes simplicity, reliability, and timely delivery 
 3- **Budget Planning Assistant**: Generate monthly budget plans and savings goals with predictive insights.
 
 4- **Task Automation**: Set up recurring transactions and automated reminders for bills.
+
+5- **Provided Feedback**: Feedback Fuctionalies can be enhance for shops
 
